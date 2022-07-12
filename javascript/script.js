@@ -45,7 +45,7 @@ const numberMap = {
     ]
 };
 
-//Obs número maximo é 1999
+//Obs número maximo é "3999"
 
 function romanoIsVeryGood(input){		
 
@@ -54,7 +54,7 @@ function romanoIsVeryGood(input){
     
     var numero = parseInt(input);
     
-    if(numero > 1999){
+    if(numero > 3999){
         return "Número máximo '1999'";
     }
     
@@ -88,6 +88,6 @@ document.getElementById("dec").addEventListener('keyup', function() {
     
     var provaReal = 'http://numeracaoromana.babuo.com/'+ numberCheck + '-em-numeros-romanos';
     document.getElementById("provaRealBox").style = "display: block";
-    document.getElementById("provaReal").href = provaReal;
-    document.getElementById("provaReal").innerHTML  = 'Validação: ' + numberCheck;
+    document.getElementById("prova-real").href = provaReal;
+    document.getElementById("prova-real").innerHTML  = 'Clique aqui para conferir: ' + numberCheck;
 });
