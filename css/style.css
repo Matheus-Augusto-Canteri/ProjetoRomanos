@@ -1,276 +1,45 @@
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%
-}
-
-@media only screen and (min-width: 601px) {
-    .container {
-        width: 85%
-    }
-}
-
-@media only screen and (min-width: 993px) {
-    .container {
-        width: 70%
-    }
-}
-
-.container .row {
-    margin-left: -0.75rem;
-    margin-right: -0.75rem
-}
-
-.section.no-pad {
-    padding: 0
-}
-
-.section.no-pad-bot {
-    padding-bottom: 0
-}
-
-.section.no-pad-top {
-    padding-top: 0
-}
-
-.row {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px
-}
-
-.row:after {
-    content: "";
-    display: inline-block;
-    clear: both
-}
-
-.row .col {
-    float: left;
-    box-sizing: border-box;
-    padding: 0 0.75rem;
-    min-height: 50px
-}
-
-.row .col.s12 {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto
-}
-
-.row .col.offset-s12 {
-    margin-left: 100%
-}
-
-.row .col.pull-s12 {
-    right: 100%
-}
-
-.row .col.push-s12 {
-    left: 100%
-}
-
-.row .col.m12 {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto
-}
-
-.row .col.offset-m12 {
-    margin-left: 100%
-}
-
-.row .col.pull-m12 {
-    right: 100%
-}
-
-.row .col.push-m12 {
-    left: 100%
-}
-
-.row .col.l12 {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto
-}
-
-.row .col.offset-l12 {
-    margin-left: 100%
-}
-
-.row .col.pull-l12 {
-    right: 100%
-}
-
-.row .col.push-l12 {
-    left: 100%
-}
-
-html {
-    line-height: 1.5;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.87)
-}
-
-@media only screen and (min-width: 0) {
-    html {
-        font-size: 14px
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    html {
-        font-size: 14.5px
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    html {
-        font-size: 15px
-    }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 400;
-    line-height: 1.1
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    font-weight: inherit
-}
-
-h1 {
-    font-size: 4.2rem;
-    line-height: 110%;
-    margin: 2.1rem 0 1.68rem 0
-}
-
-h2 {
-    font-size: 3.56rem;
-    line-height: 110%;
-    margin: 1.78rem 0 1.424rem 0
-}
-
-h3 {
-    font-size: 2.92rem;
-    line-height: 110%;
-    margin: 1.46rem 0 1.168rem 0
-}
-
-h4 {
-    font-size: 2.28rem;
-    line-height: 110%;
-    margin: 1.14rem 0 0.912rem 0
-}
-
-input[type=romano],
-/*  Romano */
-input[type=dec],
-/* Dec */
-textarea.materialize-textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #9e9e9e;
-    border-radius: 0;
-    outline: none;
-    height: 3rem;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 0 20px 0;
-    padding: 0;
-    box-shadow: none;
-    box-sizing: content-box;
-    transition: all 0.3s
-}
-
-input[type=romano]:focus:not([readonly]),
-input[type=dec]:focus:not([readonly]),
-textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #ff0000;
-    box-shadow: 0 1px 0 0 #26a69a
-}
-
-.input-field {
-    position: relative;
-    margin-top: 1rem
-}
-
-.input-field.inline {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5px
-}
-
-.input-field.inline input,
-.input-field.inline .select-dropdown {
-    margin-bottom: 1rem
-}
-
-.input-field.col label {
-    left: 0.75rem
-}
-
-.input-field.col .prefix~label,
-.input-field.col .prefix~.validate~label {
-    width: calc(100% - 3rem - 1.5rem)
-}
-
-.input-field label {
-    color: #9e9e9e;
-    position: absolute;
-    top: 0.8rem;
-    left: 0;
-    font-size: 1rem;
-    cursor: text;
-    transition: .2s ease-out
-}
-
-.input-field label.active {
-    font-size: 0.8rem;
-    -webkit-transform: translateY(-140%);
-    transform: translateY(-140%)
-        /* Transitar*/
-}
-
-input {
-    text-align: center;
-}
-
-input[type="romano"] {
-    font-size: 30px;
-    font-family: "Cinzel", Cinzel;
-    font-weight: bold;
-    color: #000 !important;
-}
-
-hr {
-    margin-top: 70px;
-}
-
 body {
     font-family: 'Raleway', sans-serif;
-    background: whitesmoke;
+    background: rgb(20, 219, 193);
 }
 
 #titulo-principal{
-    transition: 350ms;
+    transition: 1.5s;
+    color: whitesmoke;
 }
 
 #titulo-principal:hover{
-    font-size: 65px;
+    font-size: 55px;
 }
 
+#prova-real{
+    font-weight: bold;
+    font-size: 30px;
+    transition: 450ms;
+}
+
+#prova-real:hover{
+    color: rgb(0, 89, 172);
+    font-size: 35px;
+}
+
+#dec,  #romano{
+    font-size: 40px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin: 15px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+input{
+    border-radius: 10px;
+    transition: 800ms;
+    background-color: rgb(255, 255, 255);
+}
+
+input:hover{
+    background-color: rgb(205, 248, 255);
+    border-radius: 10px;
+}
