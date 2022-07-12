@@ -262,5 +262,14 @@ hr {
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
     background: whitesmoke;
+}
+
+#titulo-principal{
+    transition: 350ms;
+}
+
+#titulo-principal:hover{
+    font-size: 65px;
 }
