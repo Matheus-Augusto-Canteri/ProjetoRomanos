@@ -42,6 +42,8 @@ const numberMap = {
     ,3 : [
          ''
         ,'M' //1000
+        ,'MM' //2000
+        ,'MMM' //3000
     ]
 };
 
@@ -54,8 +56,8 @@ function romanoIsVeryGood(input){
     
     var numero = parseInt(input);
     
-    if(numero > 1999){
-        return "Número máximo '1999'";
+    if(numero > 3999){
+        return "Número máximo '3999'";
     }
     
     //Aqui descobre se é Unidade, Dezena, Centana, Milhar
